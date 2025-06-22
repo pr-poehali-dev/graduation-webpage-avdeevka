@@ -1,6 +1,7 @@
 import WelcomeHero from "@/components/WelcomeHero";
 import CountdownTimer from "@/components/CountdownTimer";
 import InvitationCard from "@/components/InvitationCard";
+import MapLocation from "@/components/MapLocation";
 
 const Index = () => {
   return (
@@ -8,6 +9,7 @@ const Index = () => {
       <WelcomeHero />
       <CountdownTimer />
       <InvitationCard />
+      <MapLocation />
     </div>
   );
 };
