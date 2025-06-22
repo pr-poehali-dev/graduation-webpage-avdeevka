@@ -16,7 +16,7 @@ const WelcomeHero = () => {
 
         <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-purple-100">
           <h2 className="font-montserrat text-2xl md:text-3xl font-semibold text-gray-700 mb-2">
-            11 класс
+            11-1 класс
           </h2>
           <p className="text-lg text-gray-600 font-open-sans leading-relaxed">
             Средняя общеобразовательная школа
