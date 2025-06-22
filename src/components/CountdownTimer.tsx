@@ -10,7 +10,7 @@ const CountdownTimer = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date("2025-06-28T10:00:00").getTime();
+    const targetDate = new Date("2025-06-28T16:00:00").getTime();
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
@@ -59,7 +59,7 @@ const CountdownTimer = () => {
         </h2>
 
         <p className="text-xl text-gray-600 font-open-sans mb-12">
-          28 июня 2025 года • 10:00
+          28 июня 2025 года • 16:00
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 md:gap-8">
